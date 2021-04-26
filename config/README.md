@@ -1,6 +1,6 @@
 ## 详细部署方法
 
-1. 登录 [Github](https://github.com/login), [如果没有账号请先注册](https://github.com/join?return_to=%2Fjoin%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home&source=login)
+1. 登录 [Github](https://github.com/login), 如果没有账号[请先注册](https://github.com/join?return_to=%2Fjoin%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home&source=login)
 
 ![image](https://raw.githubusercontent.com/chiupam/Epidemic/main/config/png/1.png)
 
