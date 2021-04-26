@@ -86,7 +86,7 @@ def Epidemic(_username, _password, _useragent, _notify, _token):
             }
             # 发起post请求
             resp = session.post(url=indexUrl, data=post_data, headers=headers)
-            if datetime.datetime.now().hour == 15:
+            if datetime.datetime.now().hour  >= 12:
                 # 封装pushplus的post数据包
                 post_data = {
                     "自检步骤": "访问下面的网址，登录并签到，以检查是否签到成功",
