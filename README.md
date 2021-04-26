@@ -12,7 +12,7 @@
 
 1. 按照右侧提供的文档进行操作即可~ [详细部署方法](https://github.com/chiupam/Epidemic/blob/main/config/README.md)
 
-2. 每天 **8点** 和 **15点** 自动签到
+2. 每天 **7点** 和 **15点** 自动签到
 
 ### 💀 免责声明
 
