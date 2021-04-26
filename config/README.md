@@ -20,7 +20,7 @@
 
 ![image](https://raw.githubusercontent.com/chiupam/Epidemic/main/config/png/5.png)
 
-6. 请查阅右侧提供的文档 -> [Value](https://github.com/chiupam/Epidemic/blob/main/config/json.md)
+6. `Name` 中填写 `USER`, `Value` 的填写请查阅右侧提供的文档 -> [Value](https://github.com/chiupam/Epidemic/blob/main/config/json.md)
 
 ```json
 [
