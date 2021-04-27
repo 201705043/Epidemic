@@ -17,8 +17,8 @@
 
 5. 此时会出现这个界面
 
-![iamge](hhttps://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_1.png)
+![iamge](https://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_1.png)
 
 6. 请自行前往注册邮箱的相关邮件中点击 `Verify email address` 按钮即可
 
-![iamge](hhttps://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_2.png)
+![iamge](https://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_2.png)
