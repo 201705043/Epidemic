@@ -1,10 +1,14 @@
 ## 详细部署方法
 
-1. [右键此处](https://github.com/login)点击 `在新的标签页中打开链接`, 在弹出的页面中登录 Github, 如果没有账号[请先注册](https://github.com/join?return_to=%2Fjoin%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home&source=login), 不懂如何注册的请点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/config/create_account.md)查阅文档, 最后[回到这个页面](https://gitee.com/chiupam/Epidemic/blob/master/config/README.md)
+1. 分为有 Github 账号和无 Github 账号两种情况
+
+- 如果有 Github 账号, [右键此处](https://github.com/login)后点击 `在新的标签页中打开链接`, 在弹出的页面中登录 Github, 最后[回到这个页面](https://gitee.com/chiupam/Epidemic/blob/master/config/README.md)开始操作第2步
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/config/png/1.png)
 
-2. [右键此处](https://github.com/chiupam/Epidemic)点击 `在新的标签页中打开链接` 后在弹出的页面中点击右上角的 `Fork`, 如果出现需要验证邮箱的情况请点击[此处](xxx)查看文档, 完成 `Fork` 此步后不需要回到此页面, 继续在弹出的页面操作即可
+- 如果无 Github 账号, [右键此处](https://github.com/join?return_to=%2Fjoin%3Fref_cta%3DSign%2Bup%26ref_loc%3Dheader%2Blogged%2Bout%26ref_page%3D%252F%26source%3Dheader-home&source=login)后点击 `在新的标签页中打开链接`, 在弹出的页面中注册 Github, 不懂如何注册的请点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/config/create_account.md)查阅文档, 最后[回到这个页面](https://gitee.com/chiupam/Epidemic/blob/master/config/README.md)开始操作第2步
+
+2. [右键此处](https://github.com/chiupam/Epidemic)点击 `在新的标签页中打开链接` 后在弹出的页面中点击右上角的 `Fork`, 如果出现需要验证邮箱的情况请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/config/verification.md)查看文档, 完成 `Fork` 此步后不需要回到此页面, 后续的操作都是在弹出的页面中进行
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/config/png/2.png)
 
@@ -23,7 +27,7 @@
 6. 先在 `Name` 中填写 `USER`, 其下方 `Value` 的填写请查阅右侧提供的文档 -> [Value](https://gitee.com/chiupam/Epidemic/blob/master/config/json.md)
 
 ```txt
-发现比较多人在点击 Add sceret 后会出现网络错误，重复操作第6步即可
+发现比较多人在点击 Add sceret 后会出现网络错误，待能访问 Github 后直接重复操作第6步即可
 ```
 
 ```json
