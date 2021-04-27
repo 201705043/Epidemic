@@ -1,4 +1,4 @@
-name: Auto Sync
+name: Auto Sync # 每天自动同步我仓库的代码
 
 on:
   workflow_dispatch:
@@ -16,7 +16,7 @@ jobs:
         ref: master
         fetch-depth: 0
         lfs: true
-        token: ${{ secrets.PAT }}
+        token: ${{ secrets.PAT }} # 参考 https://blog.csdn.net/weixin_46897467/article/details/113106403 申请到token后添加进secret内 Name填写PAT Value填写token的字符串
 
     - name: Set git identity
       run : |
