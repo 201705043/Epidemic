@@ -114,7 +114,7 @@
         "_password": "123456",
         "_notify": true,
         "_token": "abcdefghijklmnopqrstuvwxyz"
-    },
+    }
     {
         "_username": "202010002",
         "_password": "123456",
