@@ -51,32 +51,32 @@
 
 7. 先点击 `Actions`, 再点击 `I understand my workflow, go ahead and enable them`
 
-![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_6.png)
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_7.png)
 
 8. 先点击 `Auto Sync`, 再点击 `Enable workflow`
 
-![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_7.png)
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_8.png)
 
 9. 先点击 `Epidemic Task`, 再点击 `Enable workflow`
 
-![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_8.png)
-
-10. 先点击 `Epidemic Task`, 再点击 `Run workflow`, 最后点击 `Run workflow`
-
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_9.png)
 
-11. 先点击 `Sync To Gitee`, 再点击如图所示按钮, 最后点击 `Disable workflow`
+10. 先点击 `Sync To Gitee`, 再点击如图所示按钮, 最后点击 `Disable workflow`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_10.png)
 
-12. 点击 `Epidemic Task`
+11. 先点击 `Epidemic Task`, 再点击 `Run workflow`, 最后点击 `Run workflow`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_11.png)
 
-13. 点击 `deploy`
+12. 点击 `Epidemic Task`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_12.png)
 
-14. 先点击 `deploy`, 再点击 `Bulid and publish`, 可见运行结果
+13. 点击 `deploy`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_13.png)
+
+14. 先点击 `deploy`, 再点击 `Bulid and publish`, 可见运行结果
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_14.png)
