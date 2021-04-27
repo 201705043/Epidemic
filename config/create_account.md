@@ -13,8 +13,12 @@
 
 3. 下拉到页面最底部, 点击页面绿色按钮创建账号
 
-4. 在新弹出的页面直接下拉到最底部, 点击 `Complete`
+4. 在新弹出的页面直接下拉到最底部, 点击 `Complete xxxxxx`
 
-5. 此时会往注册邮箱内发送一封验证邮件, 请自行前往邮箱查看邮件
+5. 此时会出现这个界面
 
-6. 邮件内点击 `verify` 即可
+![iamge](hhttps://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_1.png)
+
+6. 请自行前往注册邮箱的相关邮件中点击 `Verify email address` 按钮即可
+
+![iamge](hhttps://gitee.com/chiupam/Epidemic/raw/master/config/png/verification_2.png)
