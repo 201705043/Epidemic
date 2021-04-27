@@ -64,3 +64,62 @@
     }
 ]
 ```
+
+## 错误写法示例
+
+1. 第 3 行加了个 `#`
+
+```json
+[
+    {
+        "_username": "202010001", #
+        "_password": "123456",
+        "_notify": true,
+        "_token": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "_username": "202010002",
+        "_password": "123456",
+        "_notify": false,
+        "_token": "XXXXXXXXXXXX"
+    }
+]
+```
+
+2. 第 3 行漏了个 `,`
+
+```json
+[
+    {
+        "_username": "202010001"
+        "_password": "123456",
+        "_notify": true,
+        "_token": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "_username": "202010002",
+        "_password": "123456",
+        "_notify": false,
+        "_token": "XXXXXXXXXXXX"
+    }
+]
+```
+
+2. 第 7 行漏了个 `,`
+
+```json
+[
+    {
+        "_username": "202010001",
+        "_password": "123456",
+        "_notify": true,
+        "_token": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "_username": "202010002",
+        "_password": "123456",
+        "_notify": false,
+        "_token": "XXXXXXXXXXXX"
+    }
+]
+```
