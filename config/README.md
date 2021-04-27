@@ -4,23 +4,23 @@
 
 ## 一、创建 Github 账号
 
-如果没有 Github 账号, 请点击[此处](xxx)查阅文档, 完成注册及验证过程
+如果没有 Github 账号, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/create_account.md)查阅文档, 完成注册及验证过程
 
 ## 二、登录 Github 账号
 
-如果有 Github 账号, 请点击[此处](xxx)查阅文档, 进行登录操作
+如果有 Github 账号, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/login.md)查阅文档, 进行登录操作
 
 ## 三、申请 APT
 
-PAT 用以每日同步上游源代码, 请点击[此处](xxx)查阅文档进行申请
+PAT 用以每日同步上游源代码, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/PAT.md)查阅文档进行申请
 
 ## 四、正式部署
 
-拥有 PAT 后, 请点击[此处](xxx)查阅文档进行正式部署
+拥有 PAT 后, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/main.md)查阅文档进行正式部署
 
 ## 五、查看日志
 
-部署成功后, 可检查日志以确定是否签到成功, 如何查看请点击[此处](xxx)查阅文档
+部署成功后, 可检查日志以确定是否签到成功, 如何查看请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/check_log.md)查阅文档
 
 ## 常见问题
 
