@@ -1,4 +1,4 @@
-name: EpidemicTask
+name: Epidemic Task
 
 on:
   push:
