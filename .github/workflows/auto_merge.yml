@@ -1,10 +1,10 @@
-# File: .github/workflows/repo-sync.yml
-name: auto_sync
+name: auto_merge
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 6 * * *'
+    - cron: '0 8 * * fri'
+    # cron表达式,每周五16点执行一次，actions任务时区为UTC时区。 
 
 
 jobs:
@@ -21,8 +21,8 @@ jobs:
 
     - name: Set git identity
       run : |
-        git config --global user.email "chiupam@126.com"
-        git config --global user.name "chiupam"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
     - name: Load upstream commits
       run: |
         git pull https://github.com/chiupam/Epidemic.git --log --no-commit
