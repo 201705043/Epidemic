@@ -15,7 +15,7 @@
 |:-:|:-:|:-:|
 |`_username`|学号||
 |`_password`|密码|即身份证后6位|
-|`_notify`|推送|开启推送则填写true 关闭推送则填false 关闭推送时下方的`_token`不需要填写值|
+|`_notify`|ture或者false|开启推送则填写true 关闭推送则填false 关闭推送时下方的`_token`不需要填写值|
 |`_token`|pushplus的token|[申请地址](http://www.pushplus.plus/push1.html) 关闭推送时此处不需要修改 开启推送时此处修改为token的值|
 
 ## 正确写法参考
