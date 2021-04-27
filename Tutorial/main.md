@@ -10,6 +10,12 @@
 
 1. [点击此处](https://github.com/chiupam/Epidemic)打开一个新的页面, 随后每一步操作都在那个新的页面中操作, 请不要在这个页面寻找任何标志
 
+```
+关于如何在这个页面和新的页面中切换, 我建议你右键超链接, 点击在新的页面打开链接
+不然你也可以两台电脑, 一台电脑看文档, 一台电脑来操作
+只要你想出办法可以同时看到这个页面和新的页面就好, 不图别的, 为了方便
+```
+
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/Epidemic.png)
 
 2. 点击 `Fork` 按钮
