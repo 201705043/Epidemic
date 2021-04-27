@@ -34,7 +34,7 @@
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_4.png)
 
-6. 先在 Name 中输入 USER, 再在 Value 中输入下方代码块中的模板（自行修改）, 最后点击 `Add secret`
+6. 先在 Name 中输入 USER, 再在 Value 中输入下方代码块中的模板（自行修改）, 更多模板请点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/config/json.md)进行查阅学习, 最后点击 `Add secret`
 
 ```json
 [
