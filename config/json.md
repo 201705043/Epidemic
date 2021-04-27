@@ -105,7 +105,7 @@
 ]
 ```
 
-2. 第 7 行漏了个 `,`
+3. 第 7 行漏了个 `,`
 
 ```json
 [
@@ -117,6 +117,19 @@
     }
     {
         "_username": "202010002",
+        "_password": "123456",
+        "_notify": false,
+        "_token": "XXXXXXXXXXXX"
+    }
+]
+```
+
+4. 双引号少了一个, 例如第 3 行
+
+```json
+[
+    {
+        _username": "202010001",
         "_password": "123456",
         "_notify": false,
         "_token": "XXXXXXXXXXXX"
