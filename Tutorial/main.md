@@ -65,14 +65,18 @@
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_9.png)
 
-11. 点击 `Epidemic Task`
+11. 先点击 `Sync To Gitee`, 再点击如图所示按钮, 最后点击 `Disable workflow`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_10.png)
 
-12. 点击 `deploy`
+12. 点击 `Epidemic Task`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_11.png)
 
-13. 先点击 `deploy`, 再点击 `Bulid and publish`, 可见运行结果
+13. 点击 `deploy`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_12.png)
+
+14. 先点击 `deploy`, 再点击 `Bulid and publish`, 可见运行结果
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_13.png)
