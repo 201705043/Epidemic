@@ -1,6 +1,6 @@
 # 正式开始部署
 
-1. [点击此处]()打开一个新页面
+1. [点击此处](https://github.com/chiupam/Epidemic)打开一个新页面
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/toturail/png/main_1.png)
 
