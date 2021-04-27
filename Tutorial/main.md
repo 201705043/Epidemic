@@ -26,7 +26,7 @@
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_2.png)
 
-4. 先在 Name 中输入 PAT, 再在 Value 中输入 PAT 的值（申请方法点击[这里](xxx)）, 最后点击 `Add secret`
+4. 先在 Name 中输入 PAT, 再在 Value 中输入 PAT 的值（申请方法点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/PAT.md)）, 最后点击 `Add secret`
 
 ![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_3.png)
 
