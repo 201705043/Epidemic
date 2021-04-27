@@ -10,7 +10,7 @@
 
 ### 🥰食用方法
 
-1. 按照右侧提供的文档进行操作即可~ [详细部署方法](https://gitee.com/chiupam/Epidemic/blob/master/config/README.md)
+1. 按照右侧提供的文档进行操作即可~ [详细部署方法](https://gitee.com/chiupam/Epidemic/blob/master/toturail/README.md)
 
 2. 每天 **7点** 和 **15点** 自动签到
 
