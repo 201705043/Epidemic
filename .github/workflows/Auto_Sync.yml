@@ -1,4 +1,4 @@
-name: auto_sync
+name: Auto Sync
 
 on:
   workflow_dispatch:
