@@ -1,0 +1,32 @@
+# File: .github/workflows/repo-sync.yml
+name: push_gitee
+on:
+  schedule:
+    - cron: '30 23 * * *'
+  workflow_dispatch:
+  watch:
+    types: started
+  push:
+    branches: [ main ]
+  repository_dispatch:
+    types: push-gitee
+jobs:
+  push-gitee:
+    env:
+      dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Organization mirror
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/chiupam
+          dst: gitee/chiupam
+          static_list: "Epidemic"
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          account_type: org
