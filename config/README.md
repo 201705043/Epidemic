@@ -10,7 +10,7 @@
 
 如果有 Github 账号, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/login.md)查阅文档, 进行登录操作
 
-## 三、申请 APT
+## 三、申请 PAT
 
 PAT 用以每日同步上游源代码, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/toturail/PAT.md)查阅文档进行申请
 
