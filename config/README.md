@@ -1,43 +1,70 @@
-# 部署过程
+# 正式开始部署
 
-此文档分为5部分, 主要部署过程为第2部分和第3部分
+## 正式开始
 
-## 一、创建 Github 账号
+1. [点击此处](https://github.com/chiupam/Epidemic)打开我的 Github Epidemic 项目
 
-如果没有 Github 账号, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/create_account.md)查阅文档, 完成注册及验证过程
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/Epidemic.png)
 
-## 二、登录 Github 账号
+2. 点击 `Fork` 按钮
 
-如果有 Github 账号, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/login.md)查阅文档, 进行登录操作
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_1.png)
 
-## 三、申请 PAT
+3. 先点击 `Settings`, 再点击 `Secret`, 最后点击 `New repository secret`
 
-PAT 用以每日同步上游源代码, 请点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/PAT.md)查阅文档进行申请
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_2.png)
 
-## 四、正式部署
+4. 先在 Name 中输入 PAT, 再在 Value 中输入 PAT 的值（申请方法点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/PAT.md)）, 最后点击 `Add secret`
 
-拥有 PAT 后, 请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/main.md)查阅文档进行正式部署
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_3.png)
 
-## 五、查看日志
+5. 先点击 `Settings`, 再点击 `Secret`, 最后点击 `New repository secret`
 
-部署成功后, 可检查日志以确定是否签到成功, 如何查看请点击[此处](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/check_log.md)查阅文档
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_4.png)
 
-## 常见问题
+6. 先在 Name 中输入 USER, 再在 Value 中输入下方代码块中的模板（自行修改）, 更多模板请点击[这里](https://gitee.com/chiupam/Epidemic/blob/master/config/json.md)进行查阅学习, 如需申请 `_token`最请点击[这里](http://www.pushplus.plus/push1.html)进行申请, 最后点击 `Add secret`
 
-1. 创建 Github 账号时无网络连接
-
-```txt
-正常, 国内偶尔禁止访问 Github , 可以等待几分钟再试
+```json
+[
+    {
+        "_username": "修改为你的学号",
+        "_password": "修改为你的身份证后6位",
+        "_notify": false,
+        "_token": "_notify为 ture 时才需要填"
+    }
+]
 ```
 
-2. 点击 `Add Secret` 后无网络连接
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_5.png)
 
-```txt
-正常, 国内偶尔禁止访问 Github , 可以等待几分钟再试
-```
+7. 先点击 `Actions`, 再点击 `I understand my workflow, go ahead and enable them`
 
-3. 日志前的符号显示为红色的×
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_7.png)
 
-```txt
-极有可能时填写 USER 的 Value 时没有按格式正确填写 Value
-```
+8. 先点击 `Auto Sync`, 再点击 `Enable workflow`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_8.png)
+
+9. 先点击 `Epidemic Task`, 再点击 `Enable workflow`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_9.png)
+
+10. 先点击 `Sync To Gitee`, 再点击如图所示按钮, 最后点击 `Disable workflow`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_10.png)
+
+11. 先点击 `Epidemic Task`, 再点击 `Run workflow`, 最后点击 `Run workflow`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_11.png)
+
+12. 点击 `Epidemic Task`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_12.png)
+
+13. 点击 `deploy`
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_13.png)
+
+14. 先点击 `deploy`, 再点击 `Bulid and publish`, 可见运行结果
+
+![image](https://gitee.com/chiupam/Epidemic/raw/master/Tutorial/png/main_14.png)
