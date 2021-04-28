@@ -18,7 +18,7 @@
 
 2. **8点**签到失败时, **15点** 再次签到会进行 `PushPlus` 推送警告
 
-3. 每天自动同步源仓库代码（需在 Secret 中填写 [PAT](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/PAT.md））
+3. 每天自动同步源仓库代码（需在 Secret 中填写 [PAT](https://gitee.com/chiupam/Epidemic/blob/master/Tutorial/PAT.md)）
 
 ### 💀 免责声明
 
